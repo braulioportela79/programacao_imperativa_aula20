@@ -36,7 +36,7 @@ let mediaIdadeOpiniao = (obj, opi) => {
     };
 };
 
-mediaIdadeOpiniao(espectador, 1);
+mediaIdadeOpiniao(espectador, 3);
 
 // - a quantidade de pessoas que responderam regular;
 
