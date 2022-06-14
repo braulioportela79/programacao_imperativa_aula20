@@ -59,11 +59,11 @@ let porcentagemRespostas = (obj, opi) => {
     let arrayOpiniao = obj.filter(e => e.opiniao == opi);
     let porcentagem = (arrayOpiniao.length / obj.length * 100).toFixed(2)
     if (opi == 1) {
-        console.log(`A porcentagem de pessoas que responderam regular foi de ${porcentagem}.`);
+        console.log(`A porcentagem de pessoas que responderam regular foi de ${porcentagem}%.`);
     } else if (opi == 2) {
-        console.log(`A porcentagem de pessoas que responderam bom foi de ${porcentagem}.`);
+        console.log(`A porcentagem de pessoas que responderam bom foi de ${porcentagem}%.`);
     } else if (opi == 3) {
-        console.log(`A porcentagem de pessoas que responderam ótimo foi de ${porcentagem}.`);
+        console.log(`A porcentagem de pessoas que responderam ótimo foi de ${porcentagem}%.`);
     };
 };
 
